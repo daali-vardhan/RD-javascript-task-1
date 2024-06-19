@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Home project - 1</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-title-wrapper">
+        <h2 class="header-title">News Blog</h2>
+        <p class="header-title-description">WORLDWIDE NEWS</p>
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="main-header-wrapper">
+        <div class="main-header-category-wrapper">
+          <label for="category" class="category-label">SELECT CATEGORY</label>
+          <select name="category" id="category" class="category-select">
+            <option value="" selected>ALL</option>
+            <option value="Java" >Java</option>
+            <option value="Javascript" >Javascript</option>
+            <option value="Python" >Python</option>
+            <option value="ASP.NET" >ASP.NET</option>
+          </select>
+        </div>
+        <h1 class="main-header-title"><span class="main-header-category-title">ALL</span> News</h1>
+        <form method="" class="subscribe-form">
+          <label for="subscribe">SUBSCRIBE</label>
+          <aside>
+            <input type="email" name="email" id="subscribe">
+            <button type="submit">subscribe</button>
+          </aside>
+        </form>
+      </section>
+      <section class="post-container">
+      </section>
+    </main>
+    <script  src="post.js"></script>
+    <script  src="main.js"></script>
+  </body>
+</html>
+
+
